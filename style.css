@@ -1,0 +1,124 @@
+*{
+    scroll-behavior: smooth;
+
+}
+.logo{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.main-nav{
+    float: right;
+}
+.main-nav ul li{
+    float: left;
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.main-nav ul li a{
+    text-decoration-line: none;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+.clear-both{
+    clear:both
+}
+.bordure {
+    border-bottom:1px solid rgb(212, 206, 206);
+    margin-top:30px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    }
+.hero{
+    width: 100%;
+    height: 450px;
+}
+.hero__desc{
+    float: left;
+    width: 50%;
+}
+.hero__desc h1{
+font-size: 50px;
+margin: 50px;
+}
+.hero__desc p{
+ font-size: 30px;
+ margin : 50px;
+}
+.hero__desc a{
+    margin: 50px;
+  color: rgb(235, 230, 230);
+  text-decoration: none;
+  background-color: rgb(40, 40, 225);
+  border-radius: 20px;
+  padding: 20px 60px;
+}
+.hero__image img{
+    width: 50%;
+}
+.meetYourMatch{
+    height: 750px;
+}
+.meetYourMatchــcontent{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 500px;
+    background-color: rgb(226, 218, 247);
+    border-radius: 20px;
+    text-align: center;
+}
+h2{
+    padding-top: 20px;
+    text-align: center;
+    font-weight:800;
+    font-size: 40px;
+}
+.form-group input{
+    padding-right: 0px;
+}
+.form-group button{
+    margin-left: 0px;
+    background-color: rgb(46, 46, 174);
+    color: aliceblue;
+    font-size: large;
+    border-radius: 40px;
+}
+.widgets{
+    width: 90%;
+    margin-top: 200px;
+
+}
+.widget {
+text-align: center;
+width: 15%;
+margin-top: 0px;
+margin-left: 90px;
+justify-content:space-between;
+display: inline-block;
+}
+.widget__desc{
+    text-align: left;
+    padding-left: 20px;
+}
+.howItWorks{
+    text-align: center;
+}
+.stories{
+    padding-top: 80px;
+
+}
+.heading-paragraph{
+    width: 450px;
+margin-left: 450px;}
+.widgets2 .widget {
+    display: inline-block;
+    width: 20%;
+}
+.widgets2 .widget .widget__image img{
+   margin-right: 50px;
+}
